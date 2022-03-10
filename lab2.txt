@@ -1,0 +1,24 @@
+num1 = input('please enter 1st no:')
+op = input('please operation:')
+num2 = input('please enter 2nd no:')
+
+
+
+num1 = float(num1)
+num2 = float(num2)
+
+if op =='+':
+   result = num1+num2
+   print(result)
+   
+elif op == '-':
+     result= num1-num2
+     print(result)
+
+elif op == '*':
+     result= num1*num2
+     print(result)
+     
+elif op == '/':
+     result= num1/num2
+     print(result)
